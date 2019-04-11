@@ -1,2 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.e {
+  width: 90%;
+  position: relative;
+  right: -16px;
+  margin-top:11px;
+  
+}
+
+.sett{
+  
+  position: absolute;
+  right: 1px;
+}
+
+.right2{
+  position: absolute;
+  left: 1px;
+  
+}
+
+.result{
+  
+   position: relative;
+  right: -16px;
+  margin-top:30px;
+  width:700px;
+  height:500px;
+  border:1px red solid;
+  
+}
+
+table {
+  width: 100%;
+}
