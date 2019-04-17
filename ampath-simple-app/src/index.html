@@ -20,13 +20,27 @@
 <script>
 
 var x = document.getElementById("result");
+var xx = document.getElementById("resultt");
 x.style.display = "none";
+xx.style.display = "none";
+
 function result_hide() {
   
   if (x.style.display === "none") {
     x.style.display = "block";
+    xx.style.display = "block";
   } else {
     //x.style.display = "none";
+  }
+} 
+
+function back_hide() {
+  
+  if (x.style.display === "none") {
+    //x.style.display = "block";
+    //xx.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 } 
 

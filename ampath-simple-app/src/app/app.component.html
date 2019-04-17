@@ -3,12 +3,29 @@
 <button>
 <mat-icon style=""> home</mat-icon>
 </button>
+<button>
+<mat-icon style=""> menu</mat-icon>
+</button>
+
 
 <b style="margin:auto;" > AmpathSimpleApp</b>
+
+
+
+
 <button class="sett">
 <mat-icon >settings</mat-icon>
 </button>
+<br/>
+
 </mat-toolbar>
+<mat-toolbar id="result">
+<button onclick="back_hide()" >
+<mat-icon style="" >navigate_before</mat-icon>
+</button>
+
+</mat-toolbar>
+
 
 <input class ="e"  style="color:green;" matInput placeholder="Search..." value=""> 
     <button  onclick="result_hide()" mat-button mat-raised-button>
@@ -17,8 +34,8 @@
 
 </div>
 
-<div id= "result" class="result">
-result
+<div id= "resultt" class="result">
+result<button class="close"  ><mat-icon style=""> close</mat-icon></button>
 
 
 </div>

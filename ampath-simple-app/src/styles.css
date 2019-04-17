@@ -15,6 +15,8 @@
   
 }
 
+//*??//*/
+
 .sett{
   
   position: absolute;
@@ -37,7 +39,11 @@
   border:1px red solid;
   
 }
-
+.close{
+   position: absolute;
+  right: 1px;
+  
+}
 table {
   width: 100%;
 }
